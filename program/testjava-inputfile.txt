@@ -1,0 +1,22 @@
+[run-option]:#time=10 mem=102400 filename=HelloInput
+[language]:#java
+::startcode::
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+class HelloInput {
+    public static void main(String[] args) throws IOException{
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+    	String name = reader.readLine();
+    	System.out.println("hello, " + name); 
+    }
+}
+::endcode::
+[check-condition]:#input exact-match ignore-space sensitive insensitive
+::start-input::
+world
+::end-input::
+::start-output::
+hello, world
+::end-output::
+[check-element]:#if for

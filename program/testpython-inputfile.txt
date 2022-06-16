@@ -1,0 +1,13 @@
+[run-option]:#time=10 mem=102400 filename=input
+[language]:#py
+::startcode::
+input = input()
+print('hello, ' + input)
+::endcode::
+[check-condition]:#exact-match ignore-space sensitive
+::start-input::
+::end-input::
+::start-output::
+hello, world
+::end-output::
+[check-element]:#if for

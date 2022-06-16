@@ -1,0 +1,10 @@
+[run-option]:#time=10 mem=102400 filename=Hello
+[language]:#java
+::startcode::
+class Hello { public static void main(String[] args){ System.out.println("Hello,world");}}
+::endcode::
+[check-condition]:#exact-macth insensitive
+::start-output::
+hello,world
+::end-output::
+[check-element]:#if for

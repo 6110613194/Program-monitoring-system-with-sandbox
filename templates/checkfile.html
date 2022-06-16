@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+<div class="row log">
+    <div class="mx-auto">
+        <h3 style="text-align:center;">Code Check</h3>
+    </div>
+</div>
+<!--Input-->
+<div class="row cspace">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+        <div class="form-group">
+            <form action="http://localhost:5000/file" method="post" enctype="multipart/form-data">
+                <label for="ta">Upload Your file</label>
+                <p><b>Upload check file</b></p><input type ="file" name ="file">
+                <p><b>Upload inputfile</b></p><input type ="file" name ="inputfile">
+                <input type="submit" class="btn btn-success" value="Submit">
+            </form>
+        </div>
+    </div>
+    <div class="col-sm-2"></div>
+</div>
+
+{% endblock %}
