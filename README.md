@@ -12,3 +12,5 @@
 * COMPUTER ENGINEERING THAMMASAT UNIVERSITY
 ## Reference
 * https://github.com/ioi/isolate
+## Researches
+* https://drive.google.com/file/d/1KofUHT8d8cdi0LRvU1hQkX6RbssZ1Kow/view?usp=sharing
